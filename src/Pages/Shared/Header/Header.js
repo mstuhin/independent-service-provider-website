@@ -36,9 +36,7 @@ const Header = () => {
                                 <button className='btn btn-link text-white text-decoration-none' onClick={handleSignOut}>sing out</button>
 
                                 :
-                                <Nav.Link as={Link} to="login">
-                                    Login
-                                </Nav.Link>
+                                
                         }
                     </Nav>
                 </Navbar.Collapse>
